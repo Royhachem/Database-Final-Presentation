@@ -1,0 +1,17 @@
+create table Employee
+(
+[Employee ID] int not null , 
+[first name] varchar (50)not null ,
+[Last name] varchar (50) not null ,
+[Father name] varchar (50),
+[Nationality] varchar (20) ,
+[Schedule] int , 
+[Salary Per Hour ] numeric , 
+[Gender] char(1)  ,
+[Phone Number] char (8) ,
+[Email] varchar (30) ,
+[Years of Experience] int ,
+[Comission] numeric , 
+primary key ([Employee Id])
+
+)
